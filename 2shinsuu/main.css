@@ -1,0 +1,105 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Noto Sans JP", serif;   
+}
+
+body {
+    background-color: rgb(165, 220, 241);
+}
+
+.result {
+    margin: 0 auto;
+    max-width: 600px;
+    height: 100px;
+    text-align: center;
+}
+
+.result h2#ten {
+    font-size: 35px;
+}
+
+.result span#two {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.control {
+    margin: 0 auto;
+    max-width: 600px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+}
+
+
+.control div {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+input {
+    display: none;
+}
+
+.control div label {
+    display: block;
+    margin: 5px !important;
+    width: 30px;
+    border-radius: 30px;
+    height: 30px;
+    margin: 0;
+    background: lightgrey;
+}
+
+.control div input[type="checkbox"]:checked + label {
+    display: block;
+    margin: 5px !important;
+    width: 30px;
+    border-radius: 30px;
+    height: 30px;
+    margin: 0;
+    background: tomato !important;
+}
+
+.hands {
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    max-width: 600px;
+    height: 400px;
+    text-align: center;
+    background: red;
+}
+
+.hands div {
+    margin: 0 auto;
+    display: flex;
+    width: calc(50% - 60px);
+    height: 400px;
+    background: blue;
+}
+
+.finger {
+    height: 150px;
+    width: fit-content;
+    background-color: green;
+}
+
+.finger div {
+    display: flex !important;
+    width: 20px;
+    background: yellow;
+    height: 150px;
+    margin: 0 auto !important;
+}

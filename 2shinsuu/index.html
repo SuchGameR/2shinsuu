@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moulpali&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2進数</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="result">
+        <h2 id="ten">0</h2>
+        <span id="two">0</span>
+    </div>
+    <div class="control">
+        <div id="left">
+            <input type="checkbox" name="hand" id="l9">
+            <label for="l9"></label>
+            <input type="checkbox" name="hand" id="l8">
+            <label for="l8"></label>
+            <input type="checkbox" name="hand" id="l7">
+            <label for="l7"></label>
+            <input type="checkbox" name="hand" id="l6">
+            <label for="l6"></label>
+            <input type="checkbox" name="hand" id="l5">
+            <label for="l5"></label>
+        </div>
+        <div id="right">
+            <input type="checkbox" name="hand" id="r4">
+            <label for="r4"></label>
+            <input type="checkbox" name="hand" id="r3">
+            <label for="r3"></label>
+            <input type="checkbox" name="hand" id="r2">
+            <label for="r2"></label>
+            <input type="checkbox" name="hand" id="r1">
+            <label for="r1"></label>
+            <input type="checkbox" name="hand" id="r0">
+            <label for="r0"></label>
+        </div>
+    </div>
+    <div class="hands">
+        <div class="left-h">
+            <div id="hl9" class="thumb"></div>
+            <div class="finger">
+                <div id="hl8"></div>
+                <div id="hl7"></div>
+                <div id="hl6"></div>
+                <div id="hl5"></div>
+            </div>
+        </div>
+        <div class="right-h">
+            <div class="finger">
+                <div id="hr4"></div>
+                <div id="hr3"></div>
+                <div id="hr2"></div>
+                <div id="hr1"></div>
+            </div>
+            <div id="hr0" class="thumb"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
