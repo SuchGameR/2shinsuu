@@ -6,3 +6,9 @@ Press glay button, thats all
 
 ### - 使い方
 灰色のボタンを押す、それだけ
+
+### UPDATE
+Added "Count" Button
+
+### アップデート
+「カウント」ボタンを追加しました
